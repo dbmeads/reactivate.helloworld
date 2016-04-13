@@ -4,7 +4,7 @@ import {render} from 'react-dom';
 const HelloWorld = Component({
     store: Store('/profile'),
     getInitialState() {
-        return {name: 'World'};
+        return {name: 'Reactivate'};
     },
     onChange(event) {
         this.setState({

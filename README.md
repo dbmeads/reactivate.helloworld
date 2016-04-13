@@ -1,4 +1,4 @@
-# Reactivate Hello World
+# Hello Reactivate!
 
 This example demonstrates how to use [Reactivate](https://www.npmjs.com/package/reactivate).
 
