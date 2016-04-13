@@ -9,4 +9,4 @@ npm install
 npm start
 ```
 
-2. Open http://localhost:9000
+2. Open [http://localhost:9000](http://localhost:9000)
