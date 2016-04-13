@@ -1,5 +1,7 @@
 # Reactivate Hello World
 
+This example demonstrates how to use [Reactivate](https://www.npmjs.com/package/reactivate).
+
 ## Running
 
 1. From this directory, run the following:
