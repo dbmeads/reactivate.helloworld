@@ -1,6 +1,6 @@
 {
   "name": "reactivate.helloworld",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reactivate Hello World",
   "author": "dbmeads@hotmail.com",
   "license": "MIT",
@@ -17,13 +17,13 @@
     "copy:index": "cp src/client/index.html dist/client/index.html",
     "copy": "npm run copy:server && npm run copy:index",
     "prepare": "mkdir -p dist/client/scripts/ && npm run copy",
-    "start": "npm run build && node dist/server"
+    "start": "node dist/server"
   },
   "dependencies": {
     "express": "^4.13.4",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
-    "reactivate": "^1.4.1"
+    "reactivate": "^1.4.2"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
