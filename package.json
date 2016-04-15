@@ -23,7 +23,7 @@
     "express": "^4.13.4",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
-    "reactivate": "^1.4.2"
+    "reactivate": "^1.4.6"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
