@@ -1,7 +1,7 @@
 import {Component,Store} from 'reactivate';
 import {render} from 'react-dom';
 
-const HelloWorld = Component({
+const HelloReactivate = Component({
     store: Store('/profile'),
     getInitialState() {
         return {name: 'Reactivate'};
@@ -31,6 +31,6 @@ const Greeting = Component({
 });
 
 render(
-    <HelloWorld></HelloWorld>,
+    <HelloReactivate></HelloReactivate>,
     document.getElementById('app')
 );
