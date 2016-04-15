@@ -7,7 +7,7 @@ const HelloWorld = Component({
         return {name: 'Reactivate'};
     },
     onChange(event) {
-        this.setState({
+        this.store.push({
             name: event.target.value
         });
     },
@@ -26,7 +26,7 @@ const HelloWorld = Component({
 
 const Greeting = Component({
     render() {
-        return <span>Hello {this.getState().name}!</span>
+        return <span>Hello {this.store.value().name}!</span>
     }
 });
 

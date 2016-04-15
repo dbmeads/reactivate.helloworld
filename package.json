@@ -1,6 +1,6 @@
 {
   "name": "reactivate.helloworld",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hello Reactivate!",
   "author": "dbmeads@hotmail.com",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "express": "^4.13.4",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
-    "reactivate": "^1.4.6"
+    "reactivate": "^1.5.0"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
